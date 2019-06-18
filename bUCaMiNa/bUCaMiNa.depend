@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1560827742 source:c:\users\jrgp\desktop\bucamina\main.c
+	<stdio.h>
+	<stdlib.h>
+
