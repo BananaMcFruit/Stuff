@@ -22,5 +22,5 @@ int main()
     if (rga == -1&&fa== -1) return -1;
     if (rfa == -1) return rga+1;
     if (rga == -1) return rfa+1;
-    if (rfa>rga) return rga; return rfa+1;
+    if (rfa>rga) return rga; return rfa+1; //hay que sumarle 1 a rga -10
 }
