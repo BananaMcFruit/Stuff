@@ -2,7 +2,7 @@
 #include <stdlib.h>
 //Primavera   1 marzo hasta 31 mayo
 //Verano      1 junio hasta 31 agosto
-//Otoño       1 septiembre hasta 30 noviembre
+//OtoÃ±o       1 septiembre hasta 30 noviembre
 //Invierno    1 diciembre hasta 28 febrero
 int main()
 {
@@ -13,7 +13,7 @@ int main()
     scanf("%d", &mes);
 
 if (
-        (mes>3||(mes==3 && dia>=1))
+        (mes>3||(mes==3 && dia>=1)) // mes>3 sera positivo para todos los meses mayores que 3. Esto trae resultados errorneos -15
         ||
         ((mes==5 && dia<=31))
         )
@@ -37,7 +37,7 @@ if (
         ((mes==11 && dia<=31))
         )
     {
-    printf("Es Otoño!\n");
+    printf("Es OtoÃ±o!\n");
     }
 
 if (
