@@ -3,7 +3,7 @@
 
 int main()
 {
-    int a, b, c, prom;
+    int a, b, c, prom; // prom tiene que ser float -10
 
     printf("Introduzca un valor: ");
     scanf("%i",&a);
